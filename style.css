@@ -12,12 +12,19 @@ body , a{
 
 
 /*HEADER*/
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 header{
     
     height: 100px;
     line-height: 100px;
     font-weight: bold;
     font-size: 20px;
+    
 }
 
 #logo{
@@ -73,3 +80,58 @@ text-decoration: none;
     padding: 10px 40px;
     
 }
+
+
+/* ----- HERO ------*/
+
+.contain-hero {
+    padding-top: 30px;
+    background-color: #B4D0E7;
+    min-height: 600px;
+}
+
+.contain-hero::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero{
+    width: 80%;
+    margin: auto;
+}
+
+.hero h2 {
+    font-size: 76px;
+    margin-bottom: 30px;
+}
+
+
+.contain-p{
+    width:40%;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.contain-img{
+    width: 60%;
+    float: right;
+}
+
+.contain-img img {
+    width: 850px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contain-p a{
+    background-color: #297AFE;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    
+
+}
+
