@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*HEADER*/
+header{
+    
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#logo{
+    width: 10%;
+    float: left;
+}
+
+#logo img {
+    padding-left: 30%;
+}
+
+header nav{
+    width: 80%;
+    display: inline-block;
+    
+    
+}
+
+ul {
+
+list-style-type: none;
+
+
+
+}
+
+ ul li {
+
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.margin{
+    margin-left: 20%;
+}
+
+ul li a {
+
+text-decoration: none;
+
+}
+
+.contain-btn{
+    width: 10%;
+    float: right;
+    
+}
+
+.btn-header {
+    padding: 10px;
+    background-color: #297AFE;
+    margin-left: 5%;
+    padding: 10px 40px;
+    
+}
