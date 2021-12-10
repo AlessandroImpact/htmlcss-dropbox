@@ -148,6 +148,12 @@ text-decoration: none;
     clear: both;
 }
 
+.container-col::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #plan-section {
     width: 80%;
     margin: auto;
@@ -239,4 +245,76 @@ text-decoration: none;
 
 .p-plan .fa-check {
     color: #297AFE; 
+}
+
+#plansection-horizontal{
+    width: 95%;
+    margin: auto;
+    border: 1px solid lightgray;
+    
+    
+}
+
+.col-hor-content{
+    width: 60%;
+    padding: 20px;
+    float: left;
+}
+
+#btn-horizontal{
+    width: 40%;
+    float: right;
+}
+
+#plansection-horizontal::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*section Partner*/
+
+.partner::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.partner{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.partner .foto{
+    width: 55%;
+    float: left;
+}
+.foto img{
+    width: 100%;
+}
+
+.partner .text-partner{
+    width: 40%;
+    float: right;
+}
+
+.partner .text-partner h3{
+    font-size: 1.8em;
+    margin: 30px 0px;
+}
+
+.partner .text-partner p{
+    font-size: 1.1em;
+    line-height: 30px;
+    margin: 25px 0px;
+}
+
+.partner .text-partner .btn.white{
+    background-color: #fff;
+    color: #000;
+    border: solid 1.5px #000;
+    padding: 10px 20px;
 }
